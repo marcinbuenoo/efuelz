@@ -112,8 +112,15 @@ class _HomePageState extends State<HomePage> {
               height: 34,
               decoration: BoxDecoration(
                   color: AppTheme.purple, borderRadius: BorderRadius.circular(11)),
-              child: const Icon(Icons.route_outlined,
-                  size: 19, color: Colors.white),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(11),
+                child: Image.asset(
+                  'assets/branding/efuelz-icon.png',
+                  width: 34,
+                  height: 34,
+                  fit: BoxFit.cover,
+                ),
+              ),
             ),
             const SizedBox(width: 10),
             const Text('e-FUELZ',

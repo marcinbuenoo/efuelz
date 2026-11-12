@@ -37,6 +37,24 @@ Marcas e modelos precisam de conexão com a internet para consultar a BrasilAPI.
 - `lib/theme/`: cores e estilo visual compartilhado.
 - `lib/widgets/`: cartões de métricas, gráficos e itens do histórico.
 
+## Ícone do aplicativo
+
+O desenho vetorial fica em `tooling/icon/efuelz-icon.svg` e a versão PNG usada pelo app em `assets/branding/efuelz-icon.png`. Para regenerar os ícones Android, iOS, macOS, Windows e Web, execute `./tooling/icon/build_icon.ps1` no PowerShell.
+
 ## Capturas de tela
 
-Inclua capturas do app em execução antes de enviar o repositório. Sugestão: cadastro do veículo, dashboard, formulário e histórico de abastecimentos.
+### Início e cadastro do veículo
+
+<p align="center">
+  <img src="assets/WhatsApp%20Image%202026-11-12%20at%2019.53.26.jpeg" alt="Tela inicial no tema claro" width="220">
+  <img src="assets/WhatsApp%20Image%202026-11-12%20at%2019.53.26%20%281%29.jpeg" alt="Tela inicial no tema escuro" width="220">
+  <img src="assets/WhatsApp%20Image%202026-11-12%20at%2019.53.26%20%282%29.jpeg" alt="Formulário de cadastro do veículo" width="220">
+</p>
+
+### Painel, abastecimento e histórico
+
+<p align="center">
+  <img src="assets/WhatsApp%20Image%202026-11-12%20at%2019.53.27.jpeg" alt="Dashboard do e-Fuelz" width="220">
+  <img src="assets/WhatsApp%20Image%202026-11-12%20at%2019.53.27%20%281%29.jpeg" alt="Formulário de novo abastecimento" width="220">
+  <img src="assets/WhatsApp%20Image%202026-11-12%20at%2019.53.27%20%282%29.jpeg" alt="Histórico de abastecimentos" width="220">
+</p>
